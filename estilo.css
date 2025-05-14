@@ -12,4 +12,11 @@ h1 {
 P {
     color: #666;
 }
- 
+
+h2 {
+    color: #8d1010;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    
+}
