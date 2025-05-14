@@ -4,16 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Probas git en paragrafo</title>
-    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
 </head>
 
 <body>
-
-    <h1>Exercicios Git</h1>
-    <p>Probas Git</p>
-
-    <p>Prueba ejercicio 5</p>
 
 </body>
 
