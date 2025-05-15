@@ -4,6 +4,11 @@ body {
     margin: 0;
 }
 
+header,
+footer {
+    background-color: lightgray;
+}
+
 h1 {
     font-size: 2rem;
     color: dodgerblue;
