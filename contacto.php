@@ -22,7 +22,7 @@
     }
     ?>
 
-    <!-- Formulario validado -->
+    <!-- Formulario -->
     <form method="post" action="" onsubmit="return validarFormulario()">
         <label>Nombre:</label><br>
         <input type="text" name="nombre" id="nombre"><br><br>
