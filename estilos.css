@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -20,6 +21,8 @@ p {
     background-color: #333;
     padding: 1rem;
     margin-bottom: 2rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .menu ul {
@@ -28,6 +31,7 @@ p {
     padding: 0;
     display: flex;
     gap: 2rem;
+    justify-content: start;
 }
 
 .menu li {
@@ -38,9 +42,12 @@ p {
     color: white;
     text-decoration: none;
     font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    display: block;
 }
 
 .menu a:hover {
     color: #ddd;
     text-decoration: underline;
+    background-color: #444;
 }
