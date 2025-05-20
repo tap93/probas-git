@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutorial estáticos</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/style/estilo.css">
+</head>
+
+<body>
+    <div class="d-flex min-vh-100">
+        <!-- Sidebar -->
+        <div class="sidebar d-flex flex-column p-4">
+            <h4 class="text-white mb-4">Navegación</h4>
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item"><a href="#home" class="nav-link">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Quiénes somos</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+                <li><a href="#products" class="nav-link">Catálogo</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Contenido principal -->
+        <div class="main-content container-fluid p-4">
+            <!-- Inicio -->
+            <section id="home" class="mb-5">
+                <h2>Inicio</h2>
+                <div class="img-web text-center">
+                    <img src="assets/img/inicio-est.jpg" alt="inicio de estáticos">
+                </div>
+                <div class="comentario">
+                    <ul>
+                        <li>Accede al inicio desde el logo o el menú.</li>
+                        <li>Resumen general en <i>index.html</i>.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Nosotros -->
+            <section id="about" class="mb-5">
+                <h2>Quiénes somos</h2>
+                <div class="img-web text-center">
+                    <img src="assets/img/about-est.jpg" alt="quienes somos de estáticos">
+                </div>
+                <div class="comentario">
+                    <ul>
+                        <li>Accede desde el menú en <i>Quiénes somos</i>.</li>
+                        <li>Resumen de nuestra empresa.</li>
+                        <li>Nuestro equipo.</li>
+                        <li>Nuestro objetivo.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Contacto -->
+            <section id="contact" class="mb-5">
+                <h2>Contacto</h2>
+                <div class="img-web text-center">
+                    <img src="assets/img/contacto1-est.jpg" alt="contacto de estáticos">
+                </div>
+                <div class="comentario">
+                    <ul>
+                        <li>Accede desde <i>Contacto</i> en el menú.</li>
+                        <li>Formulario para contactarnos.</li>
+                        <li>Mapa de ubicación.</li>
+                    </ul>
+                </div>
+
+                <div class="img-web text-center">
+                    <img src="assets/img/contacto2-est.jpg" alt="contacto formulario">
+                </div>
+                <div class="comentario">
+                    <ul>
+                        <li>Debe completar correctamente el formulario:</li>
+                        <ul>
+                            <li>Nombre completo</li>
+                            <li>Correo electrónico válido</li>
+                            <li>Comentario con su necesidad</li>
+                        </ul>
+                        <li>Si hay errores, el formulario no se enviará.</li>
+                    </ul>
+                </div>
+
+                <div class="img-web text-center">
+                    <img src="assets/img/contacto3-est.jpg" alt="contacto detalles">
+                </div>
+            </section>
+
+            <!-- Productos -->
+            <section id="products">
+                <h2>Catálogo</h2>
+                <div class="img-web text-center">
+                    <img src="assets/img/cat1-est.jpg" alt="catálogo de productos">
+                </div>
+                <div class="comentario">
+                    <ul>
+                        <li>Accede desde <i>Catálogo</i> en el menú.</li>
+                        <li>Lista de secciones de productos.</li>
+                    </ul>
+                </div>
+
+                <div class="img-web text-center">
+                    <img src="assets/img/cat2-est.jpg" alt="categorías del catálogo">
+                </div>
+                <div class="comentario">
+                    <ul>
+                        <li>Seleccione la categoría deseada.</li>
+                    </ul>
+                </div>
+
+                <div class="img-web text-center">
+                    <img src="assets/img/cat3-est.jpg" alt="selección de producto">
+                </div>
+                <div class="comentario">
+                    <ul>
+                        <li>Seleccione el producto.</li>
+                    </ul>
+                </div>
+
+                <div class="img-web text-center">
+                    <img src="assets/img/cat4-est.jpg" alt="detalle del producto">
+                </div>
+                <div class="comentario">
+                    <ul>
+                        <li>Será dirigido al apartado del producto para más información.</li>
+                    </ul>
+                </div>
+
+                <div class="img-web text-center">
+                    <img src="assets/img/cat5-est.jpg" alt="formulario de producto">
+                </div>
+                <div class="comentario">
+                    <ul>
+                        <li>Al solicitar información, será redirigido a un formulario.</li>
+                        <li>Rellene todos los campos correctamente.</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-IQsoLXlHj1bM2Lg8nLEvxCPIhEwXW/3i5Jjk0Zykz+QK7S82fIytG4GHfyCTgKzY"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
